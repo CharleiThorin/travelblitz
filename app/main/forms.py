@@ -11,3 +11,4 @@ class ContactForm(FlaskForm):
     subject = StringField()
     week = StringField()
     submit = SubmitField("Submit Assignment")
+
