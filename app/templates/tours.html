@@ -1,0 +1,584 @@
+{% extends "tourbase.html" %}
+
+{% block page_header %}
+    {{ super() }}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">Welcome to Travel Blitz Tours & Travel.</h1>
+                <h3 style="text-align: center">Give a small description here that can
+                    create the first impression.
+                </h3>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <a href="" class="btn btn-round btn-success btn-raised btn-lg center">
+                    <i class="fa fa-play">&nbsp;&nbsp; </i> TICKETING & HOTEL RESERVATIONS
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <a href="" class="btn btn-round btn-outline-warning btn-raised btn-lg center" style="color: white">
+                    <i class="fa fa-play"></i>&nbsp; CAR RENTAL & CAR HIRE
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block page_content %}
+    {{ super() }}
+    <div class="main main-raised">
+        <div class="container">
+            <div id="services" class="section text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">Let&apos;s talk Services</h2>
+                        <h5 class="description">you can write more details about your company and services Here.
+                            Keep you user engaged by providing meaningful information..
+                        </h5>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-success">
+                                    <i class="material-icons">rowing</i>
+                                </div>
+                                <h4 class="info-title">SAFARIS</h4>
+                                <p>Write a few lines about each one. A paragraph describing a feature will be enough.
+                                    make it as precise as possible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="material-icons">favorite_border</i>
+                                </div>
+                                <h4 class="info-title">HONEY MOON</h4>
+                                <p>Write a few lines about each one. A paragraph describing a feature will be enough.
+                                    make it as precise as possible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-info">
+                                    <i class="material-icons">whatshot</i>
+                                </div>
+                                <h4 class="info-title">SPECIAL OFFERS</h4>
+                                <p>Write a few lines about each one. A paragraph describing a feature will be enough.
+                                    make it as precise as possible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="safaris" class="section text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">SAFARI PACKAGES</h2>
+                        <h5 class="description">you can write more details about your Here. Keep you user engaged by
+                            providing meaningful information..
+                        </h5>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/profile_city.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/profile_city.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Schedule a Trip</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg7.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg7.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Schedule a Trip</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg2.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg2.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Schedule a Trip</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/profile_city.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/profile_city.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Schedule a Trip</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg3.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg3.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Schedule a Trip</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Schedule a Trip</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="honeymoon" class="section text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">Honey Moon Packages</h2>
+                        <h5 class="description">you can write more details about your Here. Keep you user engaged by
+                            providing meaningful information..</h5>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/profile_city.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/profile_city.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>DUBAI HONEYMOON</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Book</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg7.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg7.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>BWINDI HONEYMOON</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Book</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg2.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg2.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>CHOBE HONEYMOON</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Book</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/profile_city.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/profile_city.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>KIGALI HONEYMOON</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Book</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg3.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg3.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>KIDEPO HONEYMOON</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Book</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Book</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="offers" class="section text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">Special Offers</h2>
+                        <h5 class="description">you can write more details about your Here. Keep you user engaged by
+                            providing meaningful information..
+                        </h5>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/profile_city.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/profile_city.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Get Discount</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg7.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg7.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Get Discount</span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-card-item">
+                                <a href="{{ url_for('static', filename='img/bg2.jpg') }}" class="image-popup">
+                                    <figure>
+                                        <div class="overlay"><i class="ti-plus"></i></div>
+                                        <img src="{{ url_for('static', filename='img/bg2.jpg') }}" alt="Image"
+                                             class="img-responsive">
+                                    </figure>
+                                    <div class="fh5co-text">
+                                        <h2>QUEEN ELIZABETH DRIVE</h2>
+                                        <p><b><i>5 Days </i></b></p>
+                                        <p>Title of Event.</p>
+                                        <p>Number of Days.</p>
+                                        <p>Activities</p>
+                                    </div>
+                                </a>
+                                <p><span class="btn btn-round">Get Discount</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="section text-center">
+                <h2 class="title">Reach out for immediate Assistance</h2>
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <div class="card card-plain">
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <img src="{{ url_for('static', filename='img/faces/avatar.jpg') }}"
+                                             alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                                    </div>
+                                    <h4 class="card-title">Gigi Shanell
+                                        <br>
+                                        <small class="card-description text-muted">Model</small>
+                                    </h4>
+                                    <div class="card-body">
+                                        <p class="card-description">You can write here details about one of your team
+                                            members. You can give more details about what they do. Feel free to add some
+                                            <a href="#">links</a> for people to be able to follow them outside the site.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer justify-content-center">
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-twitter"></i></a>
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-instagram"></i></a>
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <div class="card card-plain">
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <img src="{{ url_for('static', filename='img/faces/christian.jpg') }}"
+                                             alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                                    </div>
+                                    <h4 class="card-title">Christian futchs
+                                        <br>
+                                        <small class="card-description text-muted">Agent</small>
+                                    </h4>
+                                    <div class="card-body">
+                                        <p class="card-description">You can write here details about one of your team
+                                            members. You can give more details about what they do. Feel free to add some
+                                            <a href="#">links</a> for people to be able to follow them outside the site.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer justify-content-center">
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-twitter"></i></a>
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <div class="card card-plain">
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <img src="{{ url_for('static', filename='img/faces/kendall.jpg') }}"
+                                             alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                                    </div>
+                                    <h4 class="card-title">Kendall Jenner
+                                        <br>
+                                        <small class="card-description text-muted">Ticketing Agent</small>
+                                    </h4>
+                                    <div class="card-body">
+                                        <p class="card-description">You can write here details about one of your team
+                                            members. You can give more details about what they do. Feel free to add some
+                                            <a href="#">links</a> for people to be able to follow them outside the site.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer justify-content-center">
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-twitter"></i></a>
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-instagram"></i></a>
+                                        <a href="#pablo" class="btn btn-link btn-just-icon"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contacts" class="section section-contacts">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="text-center title">Book with us</h2>
+                        <h4 class="text-center description">Contact us or send us an email
+                        </h4>
+                        <br>
+                        <div class="card">
+                            <div class="card-header card-header-primary">
+                                <h4 class="card-title">Contact Details</h4>
+                                <p class="card-category" style="font-size: 16px;">
+                                    <b>Email :</b> Hello@Travelblitz.com <br>
+                                    <b>Office Contact :</b> +256392300200<br>
+                                    <b>WhatsApp Contact :</b> +25677123456<br>
+                                </p>
+                            </div>
+                            <br>
+                            <div class="card-body ">
+                                <form class="contact-form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name" class="bmd-label-floating">Full Name:</label>
+                                                <input id="name" type="name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone" class="bmd-label-floating">Phone Contact:</label>
+                                                <input id="phone" type="tel" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="contact" class="bmd-label-floating">Whatsapp
+                                                    Contact:</label>
+                                                <input id="contact" type="tel" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="email" class="bmd-label-floating">Email:</label>
+                                                <input id="email" type="name" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
+                                        <textarea type="email" class="form-control" rows="4"
+                                                  id="exampleMessage"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 ml-auto mr-auto text-center">
+                                            <button class="btn btn-primary btn-round btn-raised">
+                                                Send Message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

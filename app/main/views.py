@@ -17,3 +17,11 @@ def index():
     if form.validate_on_submit():
         return redirect(url_for('main.index'))
     return render_template('home.html', form=form)
+
+
+@main.route('/tours-and-travel', methods=["GET", "POST"])
+def tours():
+    form = ContactForm()
+    if form.validate_on_submit():
+        return redirect(url_for('main.tours'))
+    return render_template('tours.html', form=form)
